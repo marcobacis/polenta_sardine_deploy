@@ -29,7 +29,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: polenta-api-svc
+  name: polenta-svc
   namespace: polenta
 spec:
   ports:
