@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: polenta-sardine-deploy-prod
-  namespace: polenta
+  namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: app=ghcr.io/marcobacis/polenta-sardine-deploy
     argocd-image-updater.argoproj.io/app.update-strategy: latest
