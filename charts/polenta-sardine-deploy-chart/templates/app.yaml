@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
       - name: polenta
-        image: ghcr.io/marcobacis/polenta-sardine-deploy:develop
+        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         imagePullPolicy: Always
         ports:
         - containerPort: 80
