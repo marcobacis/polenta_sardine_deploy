@@ -1,0 +1,226 @@
+@import url(https://themes.googleusercontent.com/fonts/css?kit=LQfTY8-WS7S6RP_29Lu5dLetF-41H8SYWBcdNyyAQiZOAOKwgLD3OFWU6qJv9MG3);
+
+
+.title {
+    padding-top: 0pt;
+    color: #000000;
+    font-weight: 500;
+    font-size: 26pt;
+    padding-bottom: 3pt;
+    font-family: "Open Sans";
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.subtitle {
+    padding-top: 0pt;
+    color: #666666;
+    font-weight: 500;
+    font-size: 15pt;
+    padding-bottom: 16pt;
+    font-family: "Arial";
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+li {
+    color: #000000;
+    font-weight: 500;
+    font-size: 11pt;
+    font-family: "Open Sans"
+}
+
+p {
+    margin: 0;
+    color: #000000;
+    font-weight: 500;
+    font-size: 11pt;
+    font-family: "Open Sans"
+}
+
+h1 {
+    padding-top: 20pt;
+    color: #000000;
+    font-weight: 500;
+    font-size: 20pt;
+    padding-bottom: 6pt;
+    font-family: "Open Sans";
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h2 {
+    padding-top: 10pt;
+    color: #000000;
+    border-bottom-color: #000000;
+    font-weight: 700;
+    font-size: 16pt;
+    padding-bottom: 2pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    background-color: #efefef;
+    border-bottom-width: 1pt;
+    font-family: "Open Sans";
+    border-bottom-style: solid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h3 {
+    padding-top: 20pt;
+    color: #434343;
+    border-bottom-color: #000000;
+    font-weight: 500;
+    font-size: 14pt;
+    padding-bottom: 2pt;
+    line-height: 1.0;
+    page-break-after: avoid;
+    background-color: #ffffff;
+    border-bottom-width: 1pt;
+    font-family: "Open Sans";
+    border-bottom-style: dotted;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h4 {
+    padding-top: 0pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 12pt;
+    padding-bottom: 0pt;
+    font-family: "Open Sans";
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h5 {
+    padding-top: 12pt;
+    color: #666666;
+    font-weight: 500;
+    font-size: 11pt;
+    padding-bottom: 4pt;
+    font-family: "Open Sans";
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h6 {
+    padding-top: 12pt;
+    color: #666666;
+    font-weight: 500;
+    font-size: 11pt;
+    padding-bottom: 4pt;
+    font-family: "Open Sans";
+    line-height: 1.15;
+    page-break-after: avoid;
+    font-style: italic;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 2rem;
+}
+
+h1 {
+    /* font-size: 2rem; */
+    font-weight: 500;
+}
+
+h2 {
+    /* font-size: 1.5rem; */
+    background-color: #efefef;
+    border-bottom: 1pt solid #000;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    /* font-size: 1.2rem; */
+    border-bottom: 1pt dotted #000;
+    padding-bottom: 0.3rem;
+    color: #434343;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+a {
+    color: #1155cc;
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.title {
+    font-family: 'Bangers', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.centered {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.highlight {
+    background-color: #ffff00;
+    font-weight: bold;
+}
+
+.red-title {
+    color: #ff0000;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Open Sans"
+}
